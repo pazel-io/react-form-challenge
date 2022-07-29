@@ -2,7 +2,7 @@
 
 Build a React app that can display a form based on following:
 
-Form schema:
+### Form schema:
 
 ```json
 {
@@ -86,7 +86,7 @@ Form schema:
 }
 ```
 
-###Form data
+### Partial form data saved in local storage:
 
 ```json
 {
@@ -100,4 +100,8 @@ Form schema:
 ### Requirements
 
 * Form can rehydrate from the current data saved in local storage.
-* Form page can be saved and viewed offline (e.g. in a browser).
+* Form page can be saved and viewed offline (e.g. in a browser). User can open the application even when they are offline and view the form page.
+* On form submission or value change, the form data should be validated. If validation fails, the form should not be submitted and the user should be notified.
+* On form submission, if the form data is valid, it should be saved in local storage and the user should be notified.
+* secondaryContactName field should be hidden if secondaryContactCheckbox is not checked.
+* Custom validators should be implemented.
