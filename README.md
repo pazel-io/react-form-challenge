@@ -105,3 +105,6 @@ Build a React app that can display a form based on following:
 * On form submission, if the form data is valid, it should be saved in local storage and the user should be notified.
 * secondaryContactName field should be hidden if secondaryContactCheckbox is not checked.
 * Custom validators should be implemented.
+* You should be able to use the form schema to build the form.
+* You should be able to use the form schema to validate the form data.
+* You can use any libraries you want with your React app.
