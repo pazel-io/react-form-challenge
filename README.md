@@ -1,6 +1,6 @@
 ### Coding Challenge
 
-Build a React app that can display a form based on following:
+Build a React app that can **render** a form based on following **Form schema**:
 
 ### Form schema:
 
